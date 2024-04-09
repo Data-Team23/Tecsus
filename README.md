@@ -13,8 +13,9 @@ Foi realizado a integração do projeto com o Sonar Cloud para a análise, revis
 
 # Sprint 01
 ## Problemas Encontrados
+### Repositório Back-end
 ### :pushpin: Branch XP-22-DOCKER
-__Refatorar função para reduzir sua complexidade cognitiva de 17 para 15 permitidas__
+__Refatorar função para reduzir sua complexidade cognitiva de 17 para 15 permitidas - Crítico__
 
 Complexidade Cognitiva é uma medida de quão difícil é entender o fluxo de controle de uma unidade de código. Código com alta complexidade é difícil de ler, compreender, testar e modificar.
 Como regra geral, a alta complexidade cognitiva é um sinal de que o código deve ser refatorado em partes menores e mais fáceis de gerenciar.
@@ -30,3 +31,21 @@ O Sonar aponta três sugestões:
 * Divida grandes funções: Funções grandes podem ser difíceis de entender e manter. Se uma função estiver fazendo muitas coisas, considere dividi-la em funções menores e mais gerenciáveis.
 * Cada função deve ter uma única responsabilidade: Evite aninhamentos profundos retornando mais cedo.
 Para evitar o aninhamento de condições, processe primeiro os casos excepcionais e retorne mais cedo.
+
+## Priorização para correção
+
+<div>
+  <table>
+    <tr>
+      <td><b>Ranking</b></td>
+      <td><b>Pioridade</b></td>
+      <td>Problema</b></td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Crítico</td>
+      <td>Refatorar função para reduzir sua complexidade cognitiva de 17 para 15 permitidas</td>
+    </tr>
+  </table>
+</div>
+
