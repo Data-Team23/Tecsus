@@ -33,11 +33,11 @@ Cada unidade do cliente pode possuir vários contratos (água, energia ou gás),
 
 > _Product Owner_ - [Alan Morato](https://www.linkedin.com/in/alan-morato-37b214154/)
 
-> _Scrum Master_ - [Lucas Emanoel](https://www.linkedin.com/in/lucas-emanoel-teixeira-engracio-da-silva-ab5611234/)
+> _Scrum Master_ - [Elizabeth Cristina Alves Leite](https://www.linkedin.com/in/elizabeth-cristina-alves-leite-176a9416a)
 
 > _Dev. Team_ - [Ariane Cristina](https://www.linkedin.com/in/ariane-sousa77/)
 
-> _Dev. Team_ - [Elizabeth Cristina Alves Leite](https://www.linkedin.com/in/elizabeth-cristina-alves-leite-176a9416a)
+> _Dev. Team_ - [Lucas Emanoel](https://www.linkedin.com/in/lucas-emanoel-teixeira-engracio-da-silva-ab5611234/)
 
 > _Dev. Team_ - [Tobias Fernandes Bezerra Sousa](https://www.linkedin.com/in/tobias-sousa-23bba822a)
 
