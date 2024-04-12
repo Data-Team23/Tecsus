@@ -188,7 +188,6 @@ Como Gestor Desejo um relatório com consumo total de energia mensal, anual e m�
 
 > _Visibilidade de gasto mensal_
 
-> _Visibilidade por Concessionária, Unidade e Contrato_
 
 ### Relatório Mensal de Gás
 Como Gestor Desejo um relatório com consumo total de Gás mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio.
@@ -201,7 +200,6 @@ Como Gestor Desejo um relatório com consumo total de Gás mensal, anual e médi
 
 > _Visibilidade de gasto mensal_
 
-> _Visibilidade por Concessionária, Unidade e Contrato_
 
 ### Relatório Mensal de Água
 Como Gestor Desejo um relatório com consumo total de água mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio.
@@ -214,5 +212,4 @@ Como Gestor Desejo um relatório com consumo total de água mensal, anual e méd
 
 > _Visibilidade de gasto mensal_
 
-> _Visibilidade por Concessionária, Unidade e Contrato_
 
