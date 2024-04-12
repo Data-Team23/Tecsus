@@ -30,7 +30,7 @@ Esse comportamento pode levar a resultados inesperados e dificultar a depuraçã
 <p>O problema se encontra em: app-web/src/assets/styles/navbar.css</p>
 
 __Resolução__
-<p>Para corrigir seu código, remova o seletor duplicado ou mescle todas as declarações.</p>
+<p>Para corrigir o código, é necessário remover o seletor duplicado ou mesclar todas as declarações.</p>
 <br><br>
 
 __Seletor de pseudoelemento desconhecido inesperado "::file-selector-text"__
@@ -76,7 +76,7 @@ __Adicionar cabeçalhos, tag _th_, a tag _tabela___
 <p>O problema se encontra em: app-web/src/views/Upload.vue</p>
 
 __Resolução__
-<p>A primeira tag tr da tabela deve conter elementos  da tag th, com a descrição apropriada do que os dados nas colunas representam</p>
+<p>A primeira tag tr da tabela deve conter elementos  da tag th, com a descrição apropriada do que os dados nas colunas representam.</p>
 <br><br>
 
 __Adicionar uma descrição a tabela - Upload.vue__
