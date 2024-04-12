@@ -213,3 +213,86 @@ Como Gestor Desejo um relatório com consumo total de água mensal, anual e méd
 > _Visibilidade de gasto mensal_
 
 
+--------
+
+
+# Sprint 02
+## User Stories
+### Alerta de Consumo
+Como um usuário preocupado com meus gastos de energia, desejo receber alertas quando meu consumo de energia ultrapassar a média dos últimos três meses, para que eu possa identificar e corrigir comportamentos de consumo excessivo.
+
+#### Critérios de aceitação
+> _O sistema deve calcular a média do consumo de energia dos últimos três meses para o usuário.
+
+> _Se o consumo de energia atual ultrapassar a média calculada, um alerta deve ser gerado e enviado para o usuário.
+
+> _O alerta deve conter informações claras sobre o período de tempo em que o consumo foi alto.
+
+> _Os alertas devem ser entregues de forma clara e compreensível por e-mail
+
+> _O cálculo da média e a comparação com o consumo atual devem ser realizados de forma eficiente para garantir uma resposta rápida ao usuário.
+
+> _Os alertas devem ser precisos e confiáveis, evitando falsos positivos ou negativos sempre que possível.
+
+> _Os testes de unidade e integração devem ser implementados para garantir a funcionalidade correta do sistema, verificando o cálculo da média, a comparação com o consumo atual e a geração adequada de alertas.
+
+
+### Registro de consumo acima da média
+Como um administrador do sistema, desejo ter um registro de todos os alertas de consumo de energia acima da média gerados para os usuários, para que eu possa monitorar e analisar padrões de consumo em toda a base de clientes.
+
+#### Critérios de aceitação
+> _Deve haver uma tabela no banco de dados designada para armazenar os registros de alertas de consumo acima da média.
+
+> _Identificador único do alerta.
+
+> _Identificador do usuário para o qual o alerta foi gerado.
+
+> _Consumo atual que acionou o alerta.
+
+> _Média do consumo de energia dos últimos três meses para o usuário.
+
+> _O sistema deve registrar automaticamente os alertas sempre que forem gerados para os usuários.
+
+
+
+### Cálculo da Média
+Como um sistema de gerenciamento de energia, desejo ter um método eficiente para calcular a média do consumo de energia dos últimos três meses para um usuário específico, para que eu possa identificar quando o consumo atual excede essa média e gerar alertas apropriados.
+#### Critérios de aceitação
+> _O sistema deve ser capaz de calcular a média do consumo de energia dos últimos três meses para um usuário específico.
+
+> _O cálculo da média deve levar em consideração apenas os dados de consumo dos últimos três meses disponíveis para o usuário.
+
+> _A média calculada deve ser precisa e refletir com precisão o padrão de consumo do usuário ao longo do tempo.
+
+> _O sistema deve ser capaz de lidar com diferentes unidades de medida  e converter adequadamente os valores, se necessário, para calcular a média.
+
+
+
+### Tratamento de Dados
+Como um sistema de gerenciamento de energia, desejo ter um mecanismo robusto para comparar o consumo de energia atual de um usuário com a média dos últimos três meses e gerar alertas quando o consumo atual excede essa média, para ajudar os usuários a identificar e corrigir padrões de consumo excessivo.
+#### Critérios de aceitação
+> _Tratar dados nulos de todas as colunas
+
+> _Tratar dados duplicados das colunas
+
+> _Tratar dados inválidos das colunas
+
+
+### Conexão com e-mail
+Como um usuário preocupado com meus gastos de energia, desejo receber alertas por email quando meu consumo de energia ultrapassar a média dos últimos três meses, para que eu possa identificar e corrigir comportamentos de consumo excessivo de forma rápida e eficiente.
+#### Critérios de aceitação
+> _O sistema deve enviar automaticamente um email ao usuário sempre que seu consumo de energia ultrapassar a média dos últimos três meses.
+
+> _O email de alerta deve conter informações claras sobre o período de tempo em que o consumo foi alto, incluindo datas e valores de consumo.
+
+> _O sistema deve permitir alguma forma de personalização do conteúdo do email, como o uso do nome do usuário e a possibilidade de adicionar ou remover informações específicas de acordo com as preferências do usuário.
+
+> _Teste de Envio de Email: Os testes de integração devem ser implementados para garantir que os emails de alerta sejam enviados corretamente sempre que o consumo de energia ultrapassar a média, verificando se o conteúdo está completo e se o email é entregue ao endereço correto.
+
+
+
+
+
+
+
+
