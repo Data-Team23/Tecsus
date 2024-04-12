@@ -162,6 +162,9 @@ Para garantir que as informações estejam atualizadas e disponíveis para assoc
 - ``Oracle SQL``
 
 # Sprint 01
+
+<img width="884" alt="image" src="https://github.com/Data-Team23/Tecsus/assets/143366830/8df8f7ec-d3f7-4b72-b37f-57a8e4508686">
+
 ## User Stories
 ### Upload de Arquivos
 Como gestor técnico desejo que meu sistema seja capaz de ler um arquivo de texto ou CSV e convertê-lo em uma tabela após ser carregado, para que os dados possam ser manipulados dentro do sistema
