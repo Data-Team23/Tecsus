@@ -284,15 +284,32 @@ Como um sistema de gerenciamento de energia, desejo ter um mecanismo robusto par
 ### Conexão com e-mail
 Como um usuário preocupado com meus gastos de energia, desejo receber alertas por email quando meu consumo de energia ultrapassar a média dos últimos três meses, para que eu possa identificar e corrigir comportamentos de consumo excessivo de forma rápida e eficiente.
 #### Critérios de aceitação
-> _O sistema deve enviar automaticamente um email ao usuário sempre que seu consumo de energia ultrapassar a média dos últimos três meses.
+> _O sistema deve ter integração com o gmail.
 
-> _O email de alerta deve conter informações claras sobre o período de tempo em que o consumo foi alto, incluindo datas e valores de consumo.
+> _O sistema precisa ter uma mensagem preparada para ser enviada
 
-> _O sistema deve permitir alguma forma de personalização do conteúdo do email, como o uso do nome do usuário e a possibilidade de adicionar ou remover informações específicas de acordo com as preferências do usuário.
+### Versionamento do Power BI
+Como um usuário da TecSUS eu gostaria de o power BI versionado no github, para que eu possa a versão mais atualizada do board.
+#### Critérios de aceitação
+> _Melhorar visualizações do dashboard e trazer mais informações relevantes para o negócio
 
-> _Teste de Envio de Email: Os testes de integração devem ser implementados para garantir que os emails de alerta sejam enviados corretamente sempre que o consumo de energia ultrapassar a média, verificando se o conteúdo está completo e se o email é entregue ao endereço correto.
+> _Realizar o versionamento do BI dentro do github
 
+> _Documentar cada visualização
 
+_Exemplo> Vídeo de consulta: https://www.youtube.com/watch?v=rTbSsVFeeI0_
+
+### Modelagem tipo Estrela
+Como um usuário da TecSUS eu gostaria de ter um banco de dados em estrela para armazenar os dados de unidades, concessionárias, contratos e contas, para que eu possa realizar análises técnicas e financeiras de forma eficiente e gerar relatórios de consumo de água, energia e gás.
+> _Como administrador do sistema, quero poder extrair os dados de unidades, concessionárias, contratos e contas de arquivos de texto desestruturados para carregá-los no banco de dados em estrela.
+
+> _Como usuário, desejo que os dados no banco de dados em estrela sejam transformados de maneira consistente e padronizada, garantindo a integridade e a qualidade das informações.
+
+> _Como usuário, quero que o banco de dados em estrela seja projetado de forma a permitir consultas eficientes para a geração de relatórios de consumo de água, energia e gás mensais, anuais e médios.
+
+> _Como usuário, desejo que o banco de dados em estrela inclua um mecanismo de geração de alertas para identificar consumos acima da média nos últimos 3 meses.
+
+> _Como parte dos requisitos não funcionais, desejo que seja implementada uma esteira de DevOps para garantir a integração contínua, entrega contínua e automação de processos de desenvolvimento, teste e implantação da solução proposta.
 
 
 
