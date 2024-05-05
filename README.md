@@ -23,8 +23,6 @@ Cada unidade do cliente pode possuir vários contratos (água, energia ou gás),
 
 > _Relatório de consumo total de energia mensal, anual e média_
 
-> _Relatório de consumo total de gás mensal, anual e média_
-
 > _Geração de alertas de consumo acima da média (acima da média dos últimos 3 meses)_
 
 
@@ -57,6 +55,7 @@ Cada unidade do cliente pode possuir vários contratos (água, energia ou gás),
       <td><b>User Story</b></td>
       <td><b>Estimativa (Em dias)</b></td>
       <td><b>Sprint</b></td>
+      <td><b>Requisito</b></td>
     </tr>
     <tr>
       <td>1</td>
@@ -65,6 +64,7 @@ Cada unidade do cliente pode possuir vários contratos (água, energia ou gás),
       <td>Como Gestor Desejo um relatório com consumo total de energia mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio</td>
       <td>05</td>
       <td>01</td>
+      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
     </tr>
     <tr>
       <td>2</td>
@@ -73,69 +73,68 @@ Cada unidade do cliente pode possuir vários contratos (água, energia ou gás),
       <td>Como Gestor Desejo um relatório com consumo total de energia mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio.</td>
       <td>01</td>
       <td>01</td>
+      <td>Relatório de consumo total de energia mensal, anual e média</td>
     </tr>
     <tr>
       <td>3</td>
-      <td>Relatórios de Consumo Gás</td>
-      <td>Alta</td>
-      <td>Como Gestor Desejo um relatório com consumo total de Gás mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio.</td>
-      <td>01</td>
-      <td>01</td>
-    </tr>
-    <tr>
-      <td>4</td>
       <td>Relatórios de Consumo água</td>
       <td>Alta</td>
       <td>Como Gestor Desejo um relatório com consumo total de água mensal, anual e média Para que seja possível analisar as tendências e ter acesso a métricas importantes para o negócio.</td>
       <td>01</td>
       <td>01</td>
+      <td>Relatório de consumo total de água mensal, anual e média</td>
     </tr>
     <tr>
-      <td>5</td>
+      <td>4</td>
       <td>Alerta de Consumo</td>
       <td>Alta</td>
       <td>Como um analista técnico/financeiro da TecSUS, Gostaria de receber alertas automatizados Para identificar consumos de água, energia ou gás que excedam a média dos últimos 3 meses De modo a poder tomar medidas proativas para investigar possíveis anomalias.</td>
       <td>05</td>
       <td>02</td>
+      <td>Geração de alertas de consumo acima da média (acima da média dos últimos 3 meses)</td>
     </tr>
     <tr>
-      <td>6</td>
+      <td>5</td>
       <td>Cadastro de Concessionárias</td>
       <td>Média</td>
       <td>Como um funcionário da TecSUS responsável pelo gerenciamento de dados, Gostaria de cadastrar as concessionárias de abastecimento de energia, água e gás
 Para garantir que as informações estejam atualizadas e disponíveis para associação com os contratos e unidades dos clientes.</td>
       <td>05</td>
       <td>03</td>
+      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
     </tr>
     <tr>
-      <td>7</td>
+      <td>6</td>
       <td>Cadastro de Contratos</td>
       <td>Média</td>
       <td>Como um colaborador da TecSUS encarregado do gerenciamento de contratos, Gostaria de registrar os contratos de fornecimento de energia, água e gás para cada cliente Para manter um registro organizado e preciso das obrigações contratuais e dos serviços prestados.</td>
       <td>05</td>
       <td>03</td>
+      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
     </tr>
     <tr>
-      <td>8</td>
+      <td>7</td>
       <td>Cadastro de Unidades</td>
       <td>Média</td>
       <td>Como um membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, Gostaria de cadastrar as unidades dos clientes, identificando-as por localização e características específicas Para organizar os dados e facilitar a associação com os contratos e as contas de consumo de energia, água e gás.</td>
       <td>05</td>
       <td>03</td>
+      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
     </tr>
     <tr>
-      <td>9</td>
+      <td>8</td>
       <td>Controle de Usuários</td>
       <td>Baixa</td>
       <td>Como um membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, Gostaria de cadastrar as unidades dos clientes, identificando-as por localização e características específicas Para organizar os dados e facilitar a associação com os contratos e as contas de consumo de energia, água e gás.</td>
       <td>05</td>
       <td>04</td>
+      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
     </tr>
   </table>
 </div>
 
 
-# Backlog Sprint 01
+# Requisitos Sprint 01
 <div>
   <table>
     <tr>
@@ -147,7 +146,11 @@ Para garantir que as informações estejam atualizadas e disponíveis para assoc
    <td>Alta</td>
   </tr>
   <tr>
-   <td>Relatórios de Consumo</td>
+   <td>Relatório de consumo total de água mensal, anual e média</td>
+   <td>Alta</td>
+  </tr>
+  <tr>
+   <td>Relatório de consumo total de Energia mensal, anual e média</td>
    <td>Alta</td>
   </tr>
   </table>
@@ -220,6 +223,24 @@ Como Gestor Desejo um relatório com consumo total de água mensal, anual e méd
 
 
 # Sprint 02
+
+![image](https://github.com/Data-Team23/Tecsus/assets/102003274/fcd75cd4-d62a-40c9-b03d-575f4c9262ff)
+
+
+## Requisitos Sprint 02
+<div>
+  <table>
+    <tr>
+    <td><b>Backlog</b></td>
+    <td><b>Importância</b></td>
+  </tr>
+  <tr>
+   <td>Geração de alertas de consumo acima da média (acima da média dos últimos 3 meses)</td>
+   <td>Alta</td>
+  </tr>
+  </table>
+</div>
+
 ## User Stories
 ### Alerta de Consumo
 Como um usuário preocupado com meus gastos de energia, desejo receber alertas quando meu consumo de energia ultrapassar a média dos últimos três meses, para que eu possa identificar e corrigir comportamentos de consumo excessivo.
@@ -284,18 +305,75 @@ Como um sistema de gerenciamento de energia, desejo ter um mecanismo robusto par
 ### Conexão com e-mail
 Como um usuário preocupado com meus gastos de energia, desejo receber alertas por email quando meu consumo de energia ultrapassar a média dos últimos três meses, para que eu possa identificar e corrigir comportamentos de consumo excessivo de forma rápida e eficiente.
 #### Critérios de aceitação
-> _O sistema deve enviar automaticamente um email ao usuário sempre que seu consumo de energia ultrapassar a média dos últimos três meses.
+> _O sistema deve ter integração com o gmail.
 
-> _O email de alerta deve conter informações claras sobre o período de tempo em que o consumo foi alto, incluindo datas e valores de consumo.
+> _O sistema precisa ter uma mensagem preparada para ser enviada
 
-> _O sistema deve permitir alguma forma de personalização do conteúdo do email, como o uso do nome do usuário e a possibilidade de adicionar ou remover informações específicas de acordo com as preferências do usuário.
+### Versionamento do Power BI
+Como um usuário da TecSUS eu gostaria de o power BI versionado no github, para que eu possa a versão mais atualizada do board.
+#### Critérios de aceitação
+> _Melhorar visualizações do dashboard e trazer mais informações relevantes para o negócio
 
-> _Teste de Envio de Email: Os testes de integração devem ser implementados para garantir que os emails de alerta sejam enviados corretamente sempre que o consumo de energia ultrapassar a média, verificando se o conteúdo está completo e se o email é entregue ao endereço correto.
+> _Realizar o versionamento do BI dentro do github
+
+> _Documentar cada visualização
+
+_Exemplo> Vídeo de consulta: https://www.youtube.com/watch?v=rTbSsVFeeI0_
 
 
 
+--------
+
+# Sprint 03
+
+## Requisitos Sprint 03
+<div>
+  <table>
+    <tr>
+    <td><b>Backlog</b></td>
+    <td><b>Importância</b></td>
+  </tr>
+  <tr>
+   <td>> Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
+   <td>Alta</td>
+  </tr>
+  </table>
+</div>
+
+## User Stories
+### Cadastro de Fornecedor/Unidade
+Como um funcionário da TecSUS responsável pelo gerenciamento de dados, Gostaria de cadastrar os fornecedores e Unidades de abastecimento de água e energia. Para garantir que as informações estejam atualizadas e disponíveis para associação com os contratos e unidades dos clientes.
+
+#### Critérios de aceitação
+> _O sistema deve permitir o cadastro de novos fornecedores, incluindo informações relevantes para a identificação do mesmo_
+
+> _Deve ser possível editar e atualizar as informações dos fornecedores existentes_
+
+> _As informações cadastradas de fornecedores e unidades de abastecimento devem estar sempre atualizadas e disponíveis para consulta_
+
+> _Deve ser possível associar os fornecedores e unidades de abastecimento aos contratos dos clientes, garantindo uma gestão integrada_
+
+### Cadastro de Clientes/Contratos
+Como um colaborador da TecSUS encarregado do gerenciamento de contratos, Gostaria de registrar os clientes/contratos de fornecimento de água e energia para cada cliente Para manter um registro organizado e preciso das obrigações contratuais e dos serviços prestados
+
+#### Critérios de aceitação
+> _O sistema deve permitir o cadastro de novos clientes, incluindo informações relevantes para a identificação
+
+> _Deve ser possível associar um ou mais contratos de fornecimento de água e energia a cada cliente_
+
+> _Deve ser possível editar e atualizar as informações dos fornecedores existentes_
+
+> _Deve ser possível associar os fornecedores e unidades de abastecimento aos contratos dos clientes, garantindo uma gestão integrada_
 
 
+### Modelagem tipo Estrela
+Como um usuário da TecSUS eu gostaria de ter um banco de dados em estrela para armazenar os dados de unidades, concessionárias, contratos e contas, para que eu possa realizar análises técnicas e financeiras de forma eficiente e gerar relatórios de consumo de água, energia e gás.
+> _Como administrador do sistema, quero poder extrair os dados de unidades, concessionárias, contratos e contas de arquivos de texto desestruturados para carregá-los no banco de dados em estrela.
 
+> _Como usuário, desejo que os dados no banco de dados em estrela sejam transformados de maneira consistente e padronizada, garantindo a integridade e a qualidade das informações.
 
+> _Como usuário, quero que o banco de dados em estrela seja projetado de forma a permitir consultas eficientes para a geração de relatórios de consumo de água, energia e gás mensais, anuais e médios.
 
+> _Como usuário, desejo que o banco de dados em estrela inclua um mecanismo de geração de alertas para identificar consumos acima da média nos últimos 3 meses.
+
+> _Como parte dos requisitos não funcionais, desejo que seja implementada uma esteira de DevOps para garantir a integração contínua, entrega contínua e automação de processos de desenvolvimento, teste e implantação da solução proposta.
