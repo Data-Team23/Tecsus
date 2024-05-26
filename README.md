@@ -114,18 +114,9 @@ Para garantir que as informações estejam atualizadas e disponíveis para assoc
     </tr>
     <tr>
       <td>7</td>
-      <td>Cadastro de Unidades</td>
-      <td>Média</td>
-      <td>Como um membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, Gostaria de cadastrar as unidades dos clientes, identificando-as por localização e características específicas Para organizar os dados e facilitar a associação com os contratos e as contas de consumo de energia, água e gás.</td>
-      <td>05</td>
-      <td>03</td>
-      <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
-    </tr>
-    <tr>
-      <td>8</td>
       <td>Controle de Usuários</td>
       <td>Baixa</td>
-      <td>Como um membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, Gostaria de cadastrar as unidades dos clientes, identificando-as por localização e características específicas Para organizar os dados e facilitar a associação com os contratos e as contas de consumo de energia, água e gás.</td>
+      <td>Como um membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, Gostaria de cadastrar as usuários no sistema para que seja possível liberar acessos a novos usuários da empresa.</td>
       <td>05</td>
       <td>04</td>
       <td>Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
@@ -326,6 +317,10 @@ _Exemplo> Vídeo de consulta: https://www.youtube.com/watch?v=rTbSsVFeeI0_
 
 # Sprint 03
 
+
+![image](https://github.com/Data-Team23/Tecsus/assets/102003274/50044d76-455f-47ec-94cb-492818271d4d)
+
+
 ## Requisitos Sprint 03
 <div>
   <table>
@@ -377,3 +372,92 @@ Como um usuário da TecSUS eu gostaria de ter um banco de dados em estrela para 
 > _Como usuário, desejo que o banco de dados em estrela inclua um mecanismo de geração de alertas para identificar consumos acima da média nos últimos 3 meses.
 
 > _Como parte dos requisitos não funcionais, desejo que seja implementada uma esteira de DevOps para garantir a integração contínua, entrega contínua e automação de processos de desenvolvimento, teste e implantação da solução proposta.
+
+
+# Sprint 04
+## Requisitos Sprint 03
+<div>
+  <table>
+    <tr>
+    <td><b>Backlog</b></td>
+    <td><b>Importância</b></td>
+  </tr>
+  <tr>
+   <td>> Extrair, Transformar e Carregar os dados de Unidades, Concessionárias, Contratos e Contas</td>
+   <td>Alta</td>
+  </tr>
+  </table>
+</div>
+
+### Validação e Implementação do Teste de Qualidade de Software
+Como usuário do sistema, eu quero que a qualidade do software seja aprimorada para que eu possa ter uma experiência mais confiável e satisfatória ao utilizar o sistema.
+
+> _ Todas as funcionalidades do sistema devem ser testadas para garantir que funcionem conforme o esperado.
+
+> _Os testes automatizados devem ser implementados para garantir a detecção precoce de possíveis regressões.
+
+> _A equipe de desenvolvimento deve realizar revisões de código regularmente para garantir a qualidade do código-fonte.
+
+> _Métricas de qualidade, como cobertura de código e taxa de defeitos, devem ser monitoradas e melhoradas ao longo do tempo.
+
+> _O feedback dos usuários deve ser coletado e utilizado para identificar áreas de melhoria contínua na qualidade do software.
+
+
+
+### Implementação do Processo de Deploy Automatizado
+Como administrador do sistema, quero que o processo de deploy seja automatizado e confiável, para que as novas versões do software possam ser implantadas de maneira eficiente e sem erros.
+
+> _O processo de deploy deve ser totalmente automatizado, desde a integração contínua até a entrega contínua.
+
+> _O deploy deve garantir a estabilidade do sistema.
+
+> _O pipeline de deploy deve passar por uma série de testes automatizados para garantir que a nova versão do software esteja livre de erros.
+
+
+### Deploy do Banco
+Como administrador do sistema, quero que o processo de deploy do banco de dados seja automatizado e confiável, para que as atualizações de schema e dados possam ser implantadas de maneira eficiente e sem erros.
+
+> _Criação de versionamento pra banco de dados
+
+> _Criação de cargas para regras de banco
+
+> _Testes para carga
+
+### Criação e Manutenção da Documentação do Projeto
+Como membro da equipe de desenvolvimento, quero ter uma documentação clara e atualizada do projeto para que todos possam compreender facilmente o propósito, funcionamento e arquitetura do sistema, facilitando a manutenção, comunicação externa e aprendizado contínuo.
+
+> _A documentação deve fornecer uma explicação clara do propósito, funcionamento e arquitetura do projeto.
+
+> _A documentação deve ser mantida detalhada e atualizada para facilitar a manutenção e as atualizações do código.
+
+> _A documentação deve estar disponível para comunicação externa com partes interessadas, como clientes ou parceiros.
+
+> _O Wiki do GitHub deve ser utilizado como a ferramenta principal para a criação e manutenção da documentação.
+
+
+### Implementação dos Testes de Integração
+Como desenvolvedor, quero implementar testes de integração para verificar todas as funcionalidades implementadas na branch Developer, possibilitando a identificação precoce de problemas e garantindo a qualidade do software antes do deploy.
+
+> _Os testes de integração devem verificar todas as funcionalidades implementadas na branch Developer.
+
+> _Os testes de integração devem ser capazes de identificar possíveis problemas que possam surgir ao juntar as funcionalidades.
+
+> _Um ambiente de testes deve ser criado no GitHub.
+
+> _Os gatilhos para acionar os testes de integração devem ser definidos (e.g., push na branch Developer, pull request, merge).
+
+
+### Controle de Usuários
+
+Como membro da equipe da TecSUS encarregado da gestão de unidades dos clientes, gostaria de cadastrar usuários no sistema para que seja possível liberar acessos a novos usuários da empresa.
+
+> _Deve ser possível cadastrar novos usuários no sistema com as informações necessárias (nome, e-mail, cargo, etc.).
+
+> _Os novos usuários devem receber um e-mail de confirmação e instruções para ativar suas contas.
+
+> _Os dados dos novos usuários devem ser validados antes de serem salvos no sistema.
+
+> _Deve haver uma interface amigável e intuitiva para o cadastro de novos usuários.
+
+
+
