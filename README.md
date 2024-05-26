@@ -458,6 +458,3 @@ Como membro da equipe da TecSUS encarregado da gestão de unidades dos clientes,
 > _Os dados dos novos usuários devem ser validados antes de serem salvos no sistema.
 
 > _Deve haver uma interface amigável e intuitiva para o cadastro de novos usuários.
-
-
-
