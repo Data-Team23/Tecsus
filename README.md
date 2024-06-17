@@ -1,6 +1,5 @@
 # TECSUS
 
-
 # Sumário
 * [Contexto](#contexto)
 * [Equipe](#equipe)
@@ -375,6 +374,8 @@ Como um usuário da TecSUS eu gostaria de ter um banco de dados em estrela para 
 
 
 # Sprint 04
+![WhatsApp Image 2024-06-16 at 15 56 28](https://github.com/Data-Team23/Tecsus/assets/108765052/4fbd3950-3574-4f7a-a384-23476000f849)
+
 ## Requisitos Sprint 03
 <div>
   <table>
