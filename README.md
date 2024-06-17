@@ -1,6 +1,5 @@
 # TECSUS
 
-
 # Sumário
 * [Contexto](#contexto)
 * [Equipe](#equipe)
